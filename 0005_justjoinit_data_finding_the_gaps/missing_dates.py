@@ -1,5 +1,5 @@
 import pathlib
-from datetime import date, timedelta
+from datetime import date
 
 
 def find_missing_dates(
