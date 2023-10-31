@@ -43,9 +43,7 @@ ANSWER = (
 class TestMissingDates(unittest.TestCase):
     def test_missing_dates(self):
         result = find_missing_dates(
-            input_directory=pathlib.Path("justjoinit_data"),
-            start_date=date(2021, 10, 23),
-            end_date=date(2023, 9, 25),
+            input_directory=pathlib.Path("justjoinit_data")
         )
 
         self.assertEqual(result, ANSWER)
